@@ -52,6 +52,12 @@
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         <?php echo form_error('password', '<span class="help-block">', '<span>'); ?>
       </div>
+      <p><?=$image;?></p>
+      <div class="form-group has-feedback">
+        <input type="text" name="captcha" class="form-control" placeholder="Captcha" required>
+        <span class="glyphicon glyphicon-eye-open form-control-feedback"></span>
+        <?php echo form_error('captcha', '<span class="help-block">', '<span>'); ?>
+      </div>
 
       <div class="row">
         <div class="col-xs-8">
